@@ -1,8 +1,8 @@
-# 🎯 WebGazer Face Landmarks Export System to Python
+# WebGazer Face Landmarks Export System to Python
 
 This project allows you to retrieve all 468 face points detected by WebGazer and analyze them with AI models in Python.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 FaceLandmarks_Export/
@@ -14,7 +14,7 @@ FaceLandmarks_Export/
 └── README.md                               # This file
 ```
 
-## 🚀 Installation
+## Installation
 
 ### 1. Install Python Dependencies
 
@@ -23,7 +23,7 @@ cd FaceLandmarks_Export
 pip install -r requirements.txt
 ```
 
-## 🎮 Usage
+## How to use
 
 ### Step 1: Start the Python Server
 
@@ -80,7 +80,7 @@ analyzer.visualize_landmarks()
 analyzer.export_to_csv()
 ```
 
-## 📊 Available Data
+## Available Data
 
 ### Face Points (468 MediaPipe Points)
 
@@ -100,7 +100,7 @@ analyzer.export_to_csv()
 - Nose and mouth centers
 - Mouth dimensions
 
-## 📈 Analysis Examples
+## Analysis Examples
 
 ```python
 # Analyze eye tracking accuracy
@@ -139,7 +139,7 @@ def extract_features(self, landmarks):
     return features
 ```
 
-## 📡 Server API
+## Server API
 
 - `POST /receive_landmarks` : Receive data from WebGazer
 - `POST /analyze` : Analyze received data
@@ -147,7 +147,7 @@ def extract_features(self, landmarks):
 - `GET /health` : Server status
 
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Issue: "No data captured"
 - Verify that WebGazer is properly initialized
@@ -164,7 +164,7 @@ def extract_features(self, landmarks):
 pip install --upgrade -r requirements.txt
 ```
 
-## 📝 Data Format
+## Data Format
 
 ### Exported JSON Structure
 
