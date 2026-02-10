@@ -113,7 +113,7 @@ analyzer.train_gaze_prediction_model()
 analyzer.export_to_csv('my_data.csv')
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Modify Export Rate
 
